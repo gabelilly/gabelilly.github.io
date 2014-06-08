@@ -1,9 +1,18 @@
 ---
 layout: default
 ---
+<script src="https://apis.google.com/js/platform.js">
+</script>
+
 <h2>{{ page.title }}</h2>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
 {{ content }}
+</div>
+
+<div class="g-savetodrive" 
+  data-src="http://cdn.sheknows.com/articles/2013/04/Beautiful-Pug-pugs.jpg"
+  data-filename="PugFace.jpg"
+  data-sitename="Gabe's Blog">
 </div>
